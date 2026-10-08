@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Ein-Datei-Website</title>
+ 
+    <style>
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+            background: #f5f5f5;
+
+            padding: 40px;
+
+        }
+ 
+        button {
+
+            padding: 10px 20px;
+
+            background: #0077ff;
+
+            color: white;
+
+            border: none;
+
+            border-radius: 5px;
+
+            cursor: pointer;
+
+        }
+</style>
+</head>
+<body>
+ 
+    <h1>Hallo Linda!</h1>
+<p>Das ist eine komplette Website in nur einer Datei.</p>
+ 
+    <button id="klickMich">Klick mich</button>
+ 
+    <script>
+
+        document.getElementById("klickMich").addEventListener("click", () => {
+
+            alert("Deine Ein-Datei-Website funktioniert!");
+
+        });
+</script>
+ 
+</body>
+</html>
+
+ 
